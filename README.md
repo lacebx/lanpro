@@ -1,6 +1,18 @@
-# Detailed Proposal
+# The National Retirer Corporate Offices
 
-## Introduction
+The National Retirer is the nation’s premier tabloid magazine for upper-middle-aged office workers. It provides an inside scoop into the latest and greatest scandals in office culture across the nation. It’s a real who’s who magazine for the corporate elite. The corporate offices of TNR consist of three buildings on a small campus.
+
+
+## Executive Overview
+
+We have developed a comprehensive network design proposal for the National Retirer Corporate Offices (TNR), tailored to support their operations across three interconnected buildings. The design addresses TNR’s critical need for a high-performance network capable of managing significant bandwidth demands, particularly for intensive media activities like live video streaming, which are essential to their business as a leading tabloid magazine.
+
+Key requirements include a scalable network for over 1,300 users, specialized provisions for the data center, VoIP phones, and isolated VLANs for printers and disk servers. A major challenge involves ensuring seamless connectivity and adequate bandwidth during peak usage, especially for live video streaming, while adhering to management's directive to limit this service at present.
+
+Our solution employs a multi-layered topology featuring high-performance switches such as the FC-SW-48T-LA for user access and MOD-SW-6 chassis with redundant supervisors for robust network management and failover support. Advanced techniques like link aggregation and dedicated VLAN segmentation optimize traffic flow, enhance security, and mitigate congestion risks.
+
+The design integrates a balanced combination of cost-efficient and high-end equipment to align with TNR's operational needs and budget constraints. By prioritizing modularity and scalability, the proposed solution not only addresses the company’s current demands but also ensures adaptability for future growth and technological advancements.
+
 
 This document outlines the detailed proposal for designing a robust and scalable network infrastructure for the National Retirer Corporate Offices (TNR). The proposed network supports over 1,300 users across three interconnected buildings, addressing their unique requirements with high-performance equipment, advanced segmentation techniques, and cost-efficient solutions.
 
@@ -153,11 +165,35 @@ Building 3 focuses on user experience, hosting executives and guests. It include
 
 ## Section 3 – Solution Analysis
 
-**[Content to evaluate the solution and its implementation will follow, ensuring the network design meets TNR’s requirements.]**
+The design meets all requirements by providing:
+
+- Sufficient bandwidth through link aggregation and dedicated VLANs.
+- Segmentation for security and efficiency.
+- Scalability via modular chassis and redundant supervisors.
+
+### Appropriateness
+
+- The use of high-performance switches and fiber optic cables ensures reliability and future-proofing.
+- VLANs and IP addressing comply with the 500-device broadcast domain limit.
+
+### Potential Risks and Mitigations
+
+1. Bandwidth Bottlenecks:
+   - Mitigation: Oversubscription ratios and aggregated links.
+2. Device Failures:
+   - Mitigation: Redundant supervisors and failover configurations.
 
 ---
 
 ## Summary
 
-This proposal provides a comprehensive network design tailored to the National Retirer Corporate Offices' requirements
+The proposed network design for TNR supports over 1,300 users across three buildings, addressing their unique requirements with:
+
+- High-performance switches and modular chassis for scalability.
+- VLANs and IP addressing for traffic segmentation.
+- Fiber and UTP cabling for optimal connectivity.
+
+Total Estimated Cost: \$2,535,400, accounting for modularity and scalability adjustments.
+
+
 
