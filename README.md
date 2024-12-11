@@ -161,6 +161,74 @@ Building 3 focuses on user experience, hosting executives and guests. It include
 #### Diagram Placement:
 **Figure 3**: Logical topology diagram for Building 3.
 
+
+# – IP Addressing Table
+
+## Building 1
+
+### Floor 1:
+- **Users**: VLAN 10 – 192.168.1.0/24
+- **VoIP Phones**: VLAN 11 – 192.168.2.0/24
+- **Printers**: VLAN 12 – 192.168.3.0/25
+- **Wi-Fi Access Points**: VLAN 13 – 192.168.4.0/25
+
+### Floor 2:
+- **Users**: VLAN 20 – 192.168.5.0/24
+- **VoIP Phones**: VLAN 21 – 192.168.6.0/24
+- **Printers**: VLAN 22 – 192.168.7.0/25
+- **Wi-Fi Access Points**: VLAN 23 – 192.168.8.0/25
+
+---
+
+## Building 2
+
+### Floor 1 (Data Center):
+- **File/Database Servers**: VLAN 30 – 10.0.0.0/24
+- **Disk Servers**: VLAN 31 – 10.0.1.0/24
+- **Management Network**: VLAN 32 – 10.0.2.0/25
+
+### Floors 2-4:
+#### Floor 2:
+- **Users**: VLAN 40 – 192.168.9.0/24
+- **VoIP Phones**: VLAN 41 – 192.168.10.0/24
+- **Printers**: VLAN 42 – 192.168.11.0/25
+- **Wi-Fi Access Points**: VLAN 43 – 192.168.12.0/25
+
+#### Floor 3:
+- **Users**: VLAN 50 – 192.168.13.0/24
+- **VoIP Phones**: VLAN 51 – 192.168.14.0/24
+- **Printers**: VLAN 52 – 192.168.15.0/25
+- **Wi-Fi Access Points**: VLAN 53 – 192.168.16.0/25
+
+#### Floor 4:
+- **Users**: VLAN 60 – 192.168.17.0/24
+- **VoIP Phones**: VLAN 61 – 192.168.18.0/24
+- **Printers**: VLAN 62 – 192.168.19.0/25
+- **Wi-Fi Access Points**: VLAN 63 – 192.168.20.0/25
+
+---
+
+## Building 3
+
+### Lobby:
+- **Users**: VLAN 70 – 192.168.21.0/25
+- **VoIP Phones**: VLAN 71 – 192.168.22.0/25
+- **Wi-Fi Access Points**: VLAN 72 – 192.168.23.0/25
+
+### Conference Rooms:
+- **Video Teleconferencing**: VLAN 80 – 192.168.24.0/23
+- **Wi-Fi Access Points**: VLAN 81 – 192.168.26.0/25
+
+### Executive Suites:
+- **Users**: VLAN 90 – 192.168.27.0/24
+- **VoIP Phones**: VLAN 91 – 192.168.28.0/24
+- **Printers**: VLAN 92 – 192.168.29.0/25
+- **Wi-Fi Access Points**: VLAN 93 – 192.168.30.0/25
+
+---
+
+
+
 ---
 
 ## Section 3 – Solution Analysis
